@@ -3,7 +3,7 @@ import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Todos from './Components/Todos';
 import AddTodo from './Components/AddTodo';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -41,14 +41,14 @@ function App() {
   }, [todos])
   return (
     <>
-    <Router>
+    
       <Navbar/>
         <Routes>
           <Route path='/' element={<AddTodo addTodo={addTodo}/>} />
           <Route path='/todos' element={<Todos todo={todos} onDelete={onDelete} />} />
           </Routes>
       <Footer/>
-    </Router>
+    
     </>
   );
 }
