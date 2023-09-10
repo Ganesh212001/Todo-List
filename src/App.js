@@ -1,8 +1,8 @@
 import React,{useState, useEffect} from 'react';
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
-import Todos from './Components/Todos';
-import AddTodo from './Components/AddTodo';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Todos from './components/Todos';
+import AddTodo from './components/AddTodo';
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
