@@ -14,7 +14,11 @@ body {
         flex-direction: column;
     }
     .f-para {
-        font-size: 15px;
+        font-size: 12px;
         padding: 1px;
+        margin: auto;
+    }
+    .fotter-div {
+        margin: auto;
     }
 }
